@@ -14,8 +14,8 @@ class Minisat < Formula
 
   def install
     ENV["MROOT"] = buildpath
-    system "make", "-C", "simp", "r"
-    bin.install "simp/minisat_release" => "minisat"
+    system "make", "-C", "minisat/simp", "r"
+    bin.install "minisat/simp/minisat_release" => "minisat"
   end
 
   test do
