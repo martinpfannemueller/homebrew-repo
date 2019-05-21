@@ -2,6 +2,7 @@ class Minisat < Formula
   desc "Boolean satisfiability (SAT) problem solver"
   homepage "http://minisat.se"
   url "https://github.com/MaxenceCaronLasne/minisat/archive/master.zip"
+  sha256 "8c93839aa54850f4c5450f68dcef2ce346d44194c19b31dac2ce801a7e81fcf4"
   revision 3
 
   depends_on "gcc"
