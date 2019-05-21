@@ -4,6 +4,7 @@ class Minisat < Formula
   url "https://github.com/MaxenceCaronLasne/minisat/archive/master.zip"
   sha256 "8c93839aa54850f4c5450f68dcef2ce346d44194c19b31dac2ce801a7e81fcf4"
   revision 3
+  version 2.2.1
 
   depends_on "gcc"
 
